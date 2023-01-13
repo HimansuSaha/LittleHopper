@@ -6,7 +6,8 @@ import { ProductComponent } from './product/product.component';
 import { LoginComponent } from './login/login.component';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
-
+import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
+import { AppRoutingModule } from './app-routing.module'
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,11 +15,14 @@ import { NavigationComponent } from './navigation/navigation.component';
     NavigationComponent,
     ProfileComponent,
     ProductComponent,
-    LoginComponent
+    LoginComponent,
+    
 
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' })
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    MdbCollapseModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
