@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "source": "littlehopper",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
