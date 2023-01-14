@@ -7,7 +7,8 @@ import { LoginComponent } from './login/login.component';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
-import { AppRoutingModule } from './app-routing.module'
+import { AppRoutingModule } from './app-routing.module';
+import { CatalogueComponent } from './catalogue/catalogue.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,6 +17,7 @@ import { AppRoutingModule } from './app-routing.module'
     ProfileComponent,
     ProductComponent,
     LoginComponent,
+    CatalogueComponent,
     
 
   ],
